@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:student_app/routes/HomePage.dart';
+import 'package:student_app/settings.dart';
 
 void main() {
   runApp(MyApp());
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
         // primarySwatch: Colors.blue,
         primaryColor: Colors.white,
       ),
-      home: HomePage(),
+      home: SettingPage(),
     );
   }
 }
